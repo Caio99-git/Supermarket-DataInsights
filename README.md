@@ -27,7 +27,7 @@ The data comes directly from the company’s sales records, extracted from inter
 
 ### 📊 Data Wrangling & Cleaning
 - Product descriptions translated through deep translator from Google Translator  
-- Handled inconsistent numeric formats (Brazilian style decimals and thousands separators)  
+- Handled inconsistent numeric formats
 - Converted data types to enable analysis  
 - Identified and filtered invalid or missing data rows  
 
