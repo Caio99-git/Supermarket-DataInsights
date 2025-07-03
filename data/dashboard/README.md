@@ -1,3 +1,8 @@
+# 🌐 Live Dashboard
+[Open the Supermarket Data Insights Dashboard](https://supermarket-datainsights-vaqrtmh93hk9ge348deohh.streamlit.app/)
+
+---
+
 # 📊 Product Sales & Profit Analysis Dashboard
 
 This project is a **Streamlit dashboard** to visualize and analyze product sales and profit performance over time.  
