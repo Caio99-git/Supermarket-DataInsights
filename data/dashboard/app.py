@@ -18,12 +18,12 @@ st.markdown("Select a product and date range to analyze sales/profit and see ML 
 # Load data once and cache it to improve performance
 @st.cache_data
 def load_data():
-    return pd.read_csv("ModelSource.csv")
+    return pd.read_csv("data/dashboard/ModelSource.csv")
 
 df = load_data()
 
 # Keep only data between Apr 2024 - Apr 2025
-df = df[((df['Year'] == 2024) & (df['Month'] >= 4)) | ((df['Year'] == 2025) & (df['Month'] <= 4))]
+df = df[((df['Year'] == 2024) & (df['Month'] >= 4)) | ((df['Year'] == 2025) & (df['Month'] <= 3))]
 
 # Sidebar section
 st.sidebar.header("Filters")
@@ -55,7 +55,7 @@ if df_filtered.empty:
     st.stop()
 
 # Build month selection options: Apr-Dec 2024 and Jan-Apr 2025
-allowed_months = [(y, m) for y in [2024, 2025] for m in (range(4, 13) if y == 2024 else range(1, 5))]
+allowed_months = [(y, m) for y in [2024, 2025] for m in (range(4, 13) if y == 2024 else range(1, 4))]
 
 # Convert tuple (year, month) to a readable label like "April 2024"
 def ym_to_label(ym): 
