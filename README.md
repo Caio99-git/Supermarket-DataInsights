@@ -72,7 +72,7 @@ This application empowers users to:
 
 ## 🚀 How to Run Locally
 
-1. **Clone this repository**  
+1. **Clone this repository or download it**  
    ```bash
    git clone https://github.com/your-username/SmartReview-AI.git
    cd SmartReview-AI
