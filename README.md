@@ -13,6 +13,7 @@ The primary objective of this project is to analyze and forecast product sales a
 - **Product Segmentation** to classify items by performance
 - A **machine learning model** to predict product sales
 - An **interactive Streamlit dashboard** for real-time analysis and visualization
+- A **Power BI dashboard** for business intelligence and executive-level insights
 - A **final presentation** summarizing the project workflow and insights
 
 ---
@@ -55,7 +56,14 @@ The dataset consists of monthly sales data exported from the company’s interna
 - Displays KPIs, sales trends, and the model’s profit predictions
 - ⚠️ **The dashboard has its own README** explaining how to install dependencies and run the app step by step
 
-### 🎯 5. Final Presentation
+### 📊 5. Business Intelligence Dashboard (Power BI)
+- Designed an **executive-focused Power BI dashboard** for business stakeholders
+- Includes KPIs (Total Sales, Profit, Gross Margin %, Units Sold)
+- Provides **time-series analysis**: sales vs. previous year
+- Implements **ABC segmentation** (Pareto principle) for profitability
+- Uses slicers for **Year-Month** and **Product** for interactivity
+
+### 🎯 6. Final Presentation
 - Summarized the full workflow and results in a clear, business-focused presentation
 - Highlighted key visualizations, model performance, and actionable insights for decision-makers
 
@@ -66,7 +74,7 @@ The dataset consists of monthly sales data exported from the company’s interna
 - **Python Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Streamlit, Deep-translator
 - **Data Engineering:** String manipulation, date processing, categorical encoding, lag features
 - **Modeling:** Supervised regression models (Random Forest, SVR, Linear Regression), feature selection, and evaluation with R² and MAE
-- **Visualization:** Interactive dashboards (Streamlit) and static plots
+- **Visualization:** Interactive dashboards (Streamlit, Power BI) and static plots - DAX, measures, slicers, conditional formatting, ABC analysis, Pareto charts
 
 ---
 
@@ -76,7 +84,7 @@ This project equips business users and analysts with:
 - Insights into product performance and profit margins
 - A clear segmentation of top and low-performing items
 - A predictive model for future sales planning
-- An interactive dashboard to explore results without needing to code
+- Interactive dashboards (Streamlit + Power BI) to explore results without needing to code
 - A structured presentation to share results with stakeholders
 
 ---
@@ -96,6 +104,11 @@ First of all, download the source files in the folder 'processed', and then:
 ### ➤ Streamlit Dashboard
 1. Navigate to the dashboard/ folder.
 2. Follow the step-by-step instructions in the **dashboard’s own README** to install dependencies and run the app.
+
+### ➤ Power BI Dashboard
+1. Download the `Supermarket_Analysis.pbix` file from this repository.
+2. Open it with **Power BI Desktop**.
+3. Explore KPIs, product segmentation, sales trends, and profitability interactively.
 
 ---
 
