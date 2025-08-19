@@ -106,7 +106,7 @@ First of all, download the source files in the folder 'processed', and then:
 2. Follow the step-by-step instructions in the **dashboard’s own README** to install dependencies and run the app.
 
 ### ➤ Power BI Dashboard
-1. Download the `Supermarket_Analysis` file from this repository.
+1. Download the `BI.pbix` file from this repository.
 2. Open it with **Power BI Desktop**.
 3. Explore KPIs, product segmentation, sales trends, and profitability interactively.
 
